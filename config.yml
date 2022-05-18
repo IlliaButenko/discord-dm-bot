@@ -1,0 +1,44 @@
+
+direct_message_settings:
+  individual_delay: 60
+  rate_limit_delay: 60
+  offset: 100
+  max_dms_per_token: 0
+  skip_completed: true
+  call: false
+  remove_dead_tokens: true 
+  remove_completed_members: true 
+  stop_dead_tokens: true 
+  check_mutual: false
+  friend_before_DM: false
+  online_tokens: false
+  receive_messages: false
+  skip_failed: false
+  block_after_dm: false
+  close_dm_after_message: false
+
+proxy_settings:
+  proxy_from_file: false
+  proxy_for_captcha: false
+  use_proxy_for_gateway: false
+  proxy_protocol: "http"
+  timeout: 60
+
+scraper_settings:
+  online_scraper_delay: 3000
+  scrape_usernames: false
+  scrape_avatars: false
+
+captcha_settings:
+  captcha_api_key: "7d0f10e3271c6eaef95ffc1dbee801d7"
+  captcha_api: "anti-captcha.com"
+  max_captcha_wait: 60
+  max_captcha_retry: 3
+
+other_settings: 
+  disable_keep_alives: false
+
+suspicion_avoidance:
+  random_individual_delay: 20
+  random_rate_limit_delay: 20
+  random_delay_before_dm: 20
